@@ -2236,6 +2236,7 @@ String.prototype.pluralize = function () {
   profileMessage: 'string',
 
   employees: 'user',
+  confirmedEmployees: 'user',
   donations: 'donation',
   charities: 'charity',
 

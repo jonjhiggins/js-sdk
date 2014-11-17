@@ -10,6 +10,7 @@ GiveyApp.registerModel('business', {
   profileMessage: 'string',
 
   employees: 'user',
+  confirmedEmployees: 'user',
   donations: 'donation',
   charities: 'charity',
 
