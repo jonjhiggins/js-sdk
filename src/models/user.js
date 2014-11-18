@@ -9,6 +9,7 @@ GiveyApp.registerModel('user', {
   shortName: 'string',
   personalMessage: 'string',
   avatarUrl: 'string',
-  moneyTotal: 'number'
+  moneyTotal: 'number',
+  voiceTotal: 'number'
 
 });

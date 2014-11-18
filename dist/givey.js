@@ -2279,6 +2279,7 @@ String.prototype.pluralize = function () {
   shortName: 'string',
   personalMessage: 'string',
   avatarUrl: 'string',
-  moneyTotal: 'number'
+  moneyTotal: 'number',
+  voiceTotal: 'number'
 
 });
