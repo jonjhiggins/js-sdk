@@ -1,16 +1,23 @@
 # Givey JavaScript SDK
 
+This is a preview release so please use at your own risk and report any issues you may experience. Contact [Givey Support](https://www.givey.com/support) if you have any questions.
+
+[![Code Climate](https://codeclimate.com/github/givey/js-sdk/badges/gpa.svg)](https://codeclimate.com/github/givey/js-sdk)
 [![Build Status](https://travis-ci.org/givey/js-sdk.png?branch=master)](https://travis-ci.org/givey/js-sdk)
+[![Bower version](https://badge.fury.io/bo/givey.svg)](http://badge.fury.io/bo/givey)
+
 
 
 ## Usage
 
 ### Create a new instance
 
-Before using the Givey API you will want to create a new instance to work with.
+Before using the Givey API you will want to create a new instance to work with. You will require an access token which can be obtained from the [Givey Developer Portal](https://www.givey.com/developers).
 
 ``` js
-var Givey = new GiveyApp(options);
+var Givey = new GiveyApp({
+  token: "XXXX"
+});
 ```
 
 
