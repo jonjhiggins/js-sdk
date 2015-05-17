@@ -2,8 +2,7 @@
   "name": "givey",
   "version": "0.1.1",
   "main": [
-    "dist/givey.js",
-    "dist/givey.min.js"
+    "dist/givey.js"
   ],
   "ignore": [
     "test",
