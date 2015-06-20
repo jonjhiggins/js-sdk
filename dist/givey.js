@@ -1766,7 +1766,11 @@ String.prototype.pluralize = function () {
           resolve(model);
         }
       };
-      app.getJSON(url, {}, success_callback, failure_callback);
+      var _failure_callback = function(error) {
+        reject(error);
+        failure_callback(error);
+      };
+      app.getJSON(url, {}, success_callback, _failure_callback);
     });
   }
 
